@@ -1,22 +1,31 @@
 {
-  "name": "clean-code-js",
+  "name": "clean-code",
   "version": "0.0.1",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "start": "node index.js"
   },
-  "author": {
-    "name": "Sniazhana Matskevich"
-  },
-  "license": "",
+  "author": "Sniazhana Matskevich",
+  "license": "ISC",
   "engines": {
     "node": ">=6.9.1",
     "npm": ">=3.10.8"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "chai": "^4.2.0"
-  }
+    "chai": "^4.3.4",
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axferox/jekinsSetup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axferox/jekinsSetup/issues"
+  },
+  "homepage": "https://github.com/axferox/jekinsSetup#readme"
 }
